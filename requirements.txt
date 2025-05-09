@@ -1,0 +1,11 @@
+transformers
+datasets
+detoxify
+rouge-score
+bert-score
+pandas
+nltk
+spacy
+matplotlib
+seaborn
+scikit-learn
