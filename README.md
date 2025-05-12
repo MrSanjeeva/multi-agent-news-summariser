@@ -18,15 +18,17 @@ Does a multi-agent approach improve the factual accuracy, neutrality, and cohere
 
 ### Folder Structure
 
+```
 .
-├── agents/ # Agent implementations (factual, bias, rewrite)
-├── data/ # News datasets and test articles
-├── evaluation/ # Evaluation scripts and metrics
-├── notebooks/ # Exploratory notebooks
-├── utils/ # Helper functions and utilities
-├── main.py # Pipeline runner
+├── agents/         # Agent implementations (factual, bias, rewrite)
+├── data/           # News datasets and test articles
+├── evaluation/     # Evaluation scripts and metrics
+├── notebooks/      # Exploratory notebooks
+├── utils/          # Helper functions and utilities
+├── main.py         # Pipeline runner
 ├── requirements.txt
 └── README.md
+```
 
 ### How to Run
 
