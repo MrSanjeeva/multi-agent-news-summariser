@@ -1,5 +1,3 @@
-# agents/rewrite_agent.py
-
 from transformers import pipeline
 
 

@@ -1,5 +1,3 @@
-# # agents/bias_agent.py
-
 import re
 from detoxify import Detoxify
 import nltk
@@ -17,13 +15,19 @@ class BiasAgent:
         self.bias_lexicon = set([
             # Ideological
             "progressive", "equity", "inclusive", "social justice", "deep state", "patriot",
-            "traditional values", "family values", "woke agenda",
+            "traditional values", "family values", "woke agenda", "liberal", "conservative",
+
             # Loaded language
             "radical", "heroic", "reckless", "corrupt", "disastrous", "outrageous",
+            "controversial", "gut", "trolls", "agenda", "backlash", "extremist",
+
             # Framing
-            "mainstream media", "cancel culture", "elitist", "fake news",
+            "mainstream media", "cancel culture", "elitist", "fake news", "demonstration",
+            "victory", "defeat", "opt out", "keenly focused",
+
             # Speculative
             "crisis", "catastrophe", "conspiracy", "weaponized", "apocalypse",
+
             # Bias verbs
             "admits", "blasts", "defends", "mocked", "slams", "lashes out", "praises"
         ])
@@ -34,9 +38,9 @@ class BiasAgent:
         scored = []
 
         for sent in sentences:
-            toxicity = self.model.predict(sent)['toxicity']
+            toxicity = float(self.model.predict(sent)['toxicity'])
             bias_hits = sum(1 for word in sent.lower().split()
-                            if word.strip('.,!?"') in self.bias_lexicon)
+                            if word.strip('.,!?")') in self.bias_lexicon)
             scored.append((sent, toxicity, bias_hits))
 
         # Filter out highly toxic or lexically biased sentences
@@ -52,7 +56,8 @@ class BiasAgent:
     def get_bias_confidence_score(self, text):
         """Compute overall bias confidence score from toxicity + lexical cues."""
         sentences = sent_tokenize(text)
-        toxic_scores = [self.model.predict(s)["toxicity"] for s in sentences]
+        toxic_scores = [float(self.model.predict(s)["toxicity"])
+                        for s in sentences]
         lexical_hits = sum(
             any(re.search(rf"\b{re.escape(word)}\b", s.lower())
                 for word in self.bias_lexicon)

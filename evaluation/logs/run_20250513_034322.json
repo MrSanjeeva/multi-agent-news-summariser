@@ -1,0 +1,182 @@
+[
+  {
+    "article_id": 1,
+    "reference_summary": "\u2013 It's a race for the governor's mansion in 11 states today, and the GOP could end the night at the helm of more than two-thirds of the 50 states. The GOP currently controls 29 of the country's top state offices; it's expected to keep the three Republican ones that are up for grabs (Utah, North Dakota, and Indiana), and wrest North Carolina from the Dems. That brings its toll to 30, with the potential to take three more, reports NPR. Races in Montana, New Hampshire, and Washington are still too close to call, and in all three, Democrat incumbents aren't seeking reelection. The results could have a big impact on health care, since a Supreme Court ruling grants states the ability to opt out of ObamaCare's Medicaid expansion. \"A Romney victory would dramatically empower Republican governors,\" said one analyst. Click for NPR's state-by-state breakdown of what could happen.",
+    "bart_summary": "Republicans appear on track to increase their numbers by at least one, with the potential to extend their hold to more than two-thirds of the nation's top state offices. Eight of the gubernatorial seats up for grabs are now held by Democrats; three are in Republican hands. The occupant of the governor's office is historically far less important than the party that controls the state legislature.",
+    "multiagent_summary": "Voters in 11 states will pick their governors tonight. Republicans appear on track to increase their numbers by at least one. The potential to extend their hold to more than two-thirds of the nation's top offices.",
+    "metrics": {
+      "rouge": {
+        "bart": {
+          "rouge1": 0.37,
+          "rouge2": 0.1422,
+          "rougeL": 0.2115
+        },
+        "multi_agent": {
+          "rouge1": 0.2347,
+          "rouge2": 0.1031,
+          "rougeL": 0.1429
+        }
+      },
+      "bertscore": {
+        "bart": 0.8564,
+        "multi_agent": 0.8608
+      },
+      "bias": {
+        "bart": {
+          "toxicity_score": 0.001,
+          "lexical_bias_ratio": 0.0,
+          "bias_confidence_score": 0.001
+        },
+        "multi_agent": {
+          "toxicity_score": 0.001,
+          "lexical_bias_ratio": 0.0,
+          "bias_confidence_score": 0.001
+        }
+      }
+    }
+  },
+  {
+    "article_id": 2,
+    "reference_summary": "\u2013 It turns out Facebook is only guilty of about half of what it\u2019s been accused of in the gay kiss incident. The social networking site apologized yesterday for taking down an image used to promote a \u201ckiss-in\u201d event in London. \u201cThe photo in question does not violate our Statement of Rights and Responsibilities, and was removed in error,\u201d the site said in a statement, according to the Advocate. But Facebook did not, as has been reported in several places, take down the kiss-in event itself. Here\u2019s what happened: The photo Facebook took down was posted by the Dangerous Minds blog to promote the event. In its initial write-up about the incident, the blog observed that the page organizing the protest had been taken down. But it was actually the organizer himself who \"removed\" the event, Dangerous Minds clarified. Organizer Paul Shetler explains that he decided to switch it from a public event to a private one, as \"there were starting to be trolls posting abusive nonsense on it.\"",
+    "bart_summary": "A photo of two men kissing was posted on a Facebook page protesting a London pub\u2019s decision to eject a same-sex couple for kissing. Facebook removed the photo in error. The Dangerous Minds Facebook page was set up to promote a \u201cgay kiss-in\u201d demonstration in London to protest the pub.",
+    "multiagent_summary": "Facebook event for the John Snow Kiss-In was not blocked by Facebook, but made private by the creator of the event itself. What some people do not know is that the use of friction ridge skin ... has become commonplace, and that identification role is an invaluable tool worldwide.",
+    "metrics": {
+      "rouge": {
+        "bart": {
+          "rouge1": 0.3363,
+          "rouge2": 0.1161,
+          "rougeL": 0.1504
+        },
+        "multi_agent": {
+          "rouge1": 0.2523,
+          "rouge2": 0.0455,
+          "rougeL": 0.1261
+        }
+      },
+      "bertscore": {
+        "bart": 0.8658,
+        "multi_agent": 0.8381
+      },
+      "bias": {
+        "bart": {
+          "toxicity_score": 0.013,
+          "lexical_bias_ratio": 0.333,
+          "bias_confidence_score": 0.109
+        },
+        "multi_agent": {
+          "toxicity_score": 0.001,
+          "lexical_bias_ratio": 0.0,
+          "bias_confidence_score": 0.0
+        }
+      }
+    }
+  },
+  {
+    "article_id": 3,
+    "reference_summary": "\u2013 Not a big fan of Southern California? Neither is Northern California, apparently. Supervisors in rural Siskiyou County voted 4-1 Tuesday in favor of seceding from the state, reports the Times-Standard. The county thinks state officials in Sacramento are too focused on the big metro areas of the south and thus want to form a state of its own\u2014to be called Jefferson. Supporters want to invite other northern counties, and perhaps a few from Oregon, to join, too, notes the Los Angeles Times. \u201dWe have to have government that's local, understands our issues, and has empathy,\u201d says one local rancher. It's clearly a very long-shot bid, one that would eventually require the blessing of both the state legislature and the US Congress. Still, neighboring Humboldt County is expected to meet soon to consider the idea. (Meanwhile, some counties in Colorado want to form a new state of their own.)",
+    "bart_summary": "The Siskiyou County Board of Supervisors voted 4-1 on Tuesday to pursue seceding from California. Proponents say they should form a new state -- called Jefferson -- with other counties in Northern California and Southern Oregon. \"We need our own state so we can make laws that fit our way of life,\" one resident says.",
+    "multiagent_summary": "The most recent high-profile attempt came in 2011, when Riverside County officials weighed a proposal to pursue the establishment of \"South California\" The recognition of ... | Sep 2, 2004 ... Every citizen must uphold them.",
+    "metrics": {
+      "rouge": {
+        "bart": {
+          "rouge1": 0.3462,
+          "rouge2": 0.0971,
+          "rougeL": 0.2019
+        },
+        "multi_agent": {
+          "rouge1": 0.1277,
+          "rouge2": 0.0,
+          "rougeL": 0.0957
+        }
+      },
+      "bertscore": {
+        "bart": 0.8857,
+        "multi_agent": 0.8247
+      },
+      "bias": {
+        "bart": {
+          "toxicity_score": 0.001,
+          "lexical_bias_ratio": 0.0,
+          "bias_confidence_score": 0.001
+        },
+        "multi_agent": {
+          "toxicity_score": 0.001,
+          "lexical_bias_ratio": 0.0,
+          "bias_confidence_score": 0.0
+        }
+      }
+    }
+  },
+  {
+    "article_id": 4,
+    "reference_summary": "\u2013 Why did Microsoft buy Nokia's phone business? We now know Microsoft's answer: The computing giant released a 30-slide presentation today arguing that the move will improve Microsoft's margins on Windows phones, which will allow it to invest more in the platform, which will accelerate sales and market share growth, the Washington Post reports. But John Herrman at Buzzfeed has another explanation: \"Fear of dying alone.\" Here's what he and other pundits are saying: The presentation \"manages to sound both insane and uninspiring, outlining modest goals that still sound unrealistic,\" Herman argues\u2014like capturing a whole 15% of the smartphone market. \"It's a fitting end for the close of Microsoft's Ballmer era, during which the company \u2026 missed out on the most important change in consumer electronics in decades\" while remaining profitable in unglamorous ways. Like everyone, Microsoft is trying to ape the Apple model, MobileOpportunity observes. But it's not so sure that's a good idea. \"There already is an apple,\" the blog points out, and other software/hardware hybrid companies, like Palm and BlackBerry, have been crushed under its heel. Maybe Microsoft should have tried to patch up its tried-and-true strategy of licensing its OS. The move risks complicating Microsoft's crucial relationships with other PC and device manufacturers, one analyst tells ZDNet. But he adds that \"Microsoft needed to make a bold move\" or face \"certain terminal decline,\" and that the price it paid for Nokia \"seems extremely reasonable.\" Meanwhile, Matthew Yglesias at Slate digs up a fairly interesting memo from Nokia CEO (and, perhaps, Microsoft heir apparent) Stephen Elop, in which he uses the story of a Deepwater Horizon worker leaping from the burning oil platform\u2014a seemingly desperate, yet necessary move\u2014to explain the company's shift from its own failed OS to Windows Phone. Of course, Yglesias notes, that move \"was basically a total failure.\" To read the full parable, click here.",
+    "bart_summary": "Microsoft's acquisition of Nokia is aimed at building a devices and services strategy. The move is seen as a move away from the moribund world of the beige desktop and towards the sunlit world of smartphones and tablets. Analyst: Microsoft's success has been build on being hardware agnostic.",
+    "multiagent_summary": "Forrester mobile analyst Charles Golvin said the steadily diminishing investments by other Windows Phone licensees has left Microsoft with just Nokia as its standard bearer. Golvin added Microsoft now appears \"poised to adopt a vertically integrated strategy more akin to Apple's\"",
+    "metrics": {
+      "rouge": {
+        "bart": {
+          "rouge1": 0.1649,
+          "rouge2": 0.0267,
+          "rougeL": 0.0904
+        },
+        "multi_agent": {
+          "rouge1": 0.1087,
+          "rouge2": 0.0055,
+          "rougeL": 0.0598
+        }
+      },
+      "bertscore": {
+        "bart": 0.824,
+        "multi_agent": 0.8193
+      },
+      "bias": {
+        "bart": {
+          "toxicity_score": 0.001,
+          "lexical_bias_ratio": 0.0,
+          "bias_confidence_score": 0.001
+        },
+        "multi_agent": {
+          "toxicity_score": 0.001,
+          "lexical_bias_ratio": 0.0,
+          "bias_confidence_score": 0.0
+        }
+      }
+    }
+  },
+  {
+    "article_id": 5,
+    "reference_summary": "\u2013 The Supreme Court is facing a docket of high-profile political cases that will test whether recent liberal victories were more fluke or firm conviction, the New York Times reports. The court\u2014which is divided 5-4 for conservatives, but saw Justice Roberts vote liberal on Obamacare and same-sex marriage\u2014will look at cases including unions, affirmative action, and possibly abortion. A primer: Unions: Since 1977, unions have been allowed to charge non-union workers for dues that go to collective bargaining efforts, but not political ones. Now California teachers have brought a case saying collective bargaining is itself political. \"It could set the stage for a Citizens United-style reconsideration in the area of union dues,\" a lawyer says. Affirmative Action: Abigail Fisher says that being white played a role in the University of Texas denying her admission back in 2008. The Supreme Court punted on her case in 2013, and now it's back on the docket. Like the unions case, this was brought by a conservative group that recruited the plaintiffs. The death penalty: Justices will decide on capital-punishment cases in Pennsylvania, Kansas, Georgia, and Florida, the Wall Street Journal reports. Justices Ruth Bader Ginsburg and Stephen Breyer have already expressed doubts about whether capital punishment is constitutional. \"One person, one vote\": Should state legislative districts be drawn based on their number of people or eligible voters? If justices choose the latter\u2014leaving out immigrants and children\u2014Latinos could lose political clout and rural areas will gain, Politico reports. Abortion: Justices may opt to revisit a Texas law that could reduce the state's abortion clinics from more than 40 to roughly 10. At issue is whether new clinic requirements are an \"undue burden\" on women's right to an abortion. One commentator believes this Supreme Court session will be ugly for liberals.",
+    "bart_summary": "The Supreme Court will hear a case that could gut public sector labor unions. The justices are already facing a batch of petitions involving the rights of religious institutions to opt out of providing contraception under Obamacare. Public-employee unions and politicians of both parties are keenly focused on a California dispute about whether states can compel government employees to pay union dues. Both issues seem likely to land on this term's docket.",
+    "multiagent_summary": "The death penalty is shaping up to be a big issue for the Supreme Court as it begins a new term Monday. At least six capital-punishment cases are on the docket and a recent wave of executions has kept the justices up late.",
+    "metrics": {
+      "rouge": {
+        "bart": {
+          "rouge1": 0.2251,
+          "rouge2": 0.0421,
+          "rougeL": 0.1152
+        },
+        "multi_agent": {
+          "rouge1": 0.1648,
+          "rouge2": 0.0457,
+          "rougeL": 0.1023
+        }
+      },
+      "bertscore": {
+        "bart": 0.834,
+        "multi_agent": 0.8326
+      },
+      "bias": {
+        "bart": {
+          "toxicity_score": 0.001,
+          "lexical_bias_ratio": 0.75,
+          "bias_confidence_score": 0.226
+        },
+        "multi_agent": {
+          "toxicity_score": 0.002,
+          "lexical_bias_ratio": 0.0,
+          "bias_confidence_score": 0.001
+        }
+      }
+    }
+  }
+]

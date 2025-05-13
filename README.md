@@ -23,8 +23,6 @@ Does a multi-agent approach improve the factual accuracy, neutrality, and cohere
 ├── agents/         # Agent implementations (factual, bias, rewrite)
 ├── data/           # News datasets and test articles
 ├── evaluation/     # Evaluation scripts and metrics
-├── notebooks/      # Exploratory notebooks
-├── utils/          # Helper functions and utilities
 ├── main.py         # Pipeline runner
 ├── requirements.txt
 └── README.md

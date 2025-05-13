@@ -148,7 +148,7 @@ class FactualAgent:
                     "NEUTRAL": "❓ Unclear",
                     "CONTRADICTION": "❌ Possibly False"
                 }
-                tag = tag_map.get(label, f"❓ Unknown label: {label}")
+                tag = tag_map.get(label, f"Unknown label: {label}")
 
                 sources = self.google_fact_check(sent)
                 if label == "NEUTRAL" and self.google_entailment_verification(sent, sources):
@@ -156,14 +156,14 @@ class FactualAgent:
 
                 if sources:
                     snippet_text = " | ".join(sources[:2])
-                    source_info = f"\n    🔎 Sources: {snippet_text}"
+                    source_info = f"\n Sources: {snippet_text}"
                 else:
-                    source_info = "\n    🔎 No supporting sources found"
+                    source_info = "\n No supporting sources found"
 
                 verified_facts.append(
                     f"{tag} ({score:.2f}): {sent}{source_info}")
             except Exception as e:
-                print(f"❗ Verification error:\n{sent}\nError: {str(e)}")
-                verified_facts.append(f"⚠️ Failed to verify: {sent}")
+                print(f"Verification error:\n{sent}\nError: {str(e)}")
+                verified_facts.append(f"Failed to verify: {sent}")
 
         return "\n".join(verified_facts) if verified_facts else "No facts extracted."
