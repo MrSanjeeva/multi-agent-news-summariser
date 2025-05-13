@@ -31,6 +31,9 @@ Does a multi-agent approach improve the factual accuracy, neutrality, and cohere
 ### How to Run
 
 ```bash
+# Create a virtual environment
+python -m venv news-summariser-env
+
 # Activate virtual environment
 source news-summariser-env/bin/activate
 

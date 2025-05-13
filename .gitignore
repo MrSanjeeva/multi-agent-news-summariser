@@ -1,4 +1,3 @@
-news_analysis_output.csv
-agents/__pycache__/bias_agent.cpython-311.pyc
-agents/__pycache__/factual_agent.cpython-311.pyc
-agents/__pycache__/rewrite_agent.cpython-311.pyc
+venv/
+__pycache__/
+*.pyc
