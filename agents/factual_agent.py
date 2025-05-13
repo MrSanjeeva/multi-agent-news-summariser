@@ -11,8 +11,8 @@ warnings.filterwarnings("ignore", category=UserWarning, module="transformers")
 
 # Add your API Key and CSE ID here or use environment variables
 GOOGLE_API_KEY = os.getenv(
-    "GOOGLE_API_KEY", "AIzaSyARLIvAdzUc0-FQa0V9rwUrFoTLBhFaTFc")
-GOOGLE_CSE_ID = os.getenv("GOOGLE_CSE_ID", "c498910b36e094dfb")
+    "GOOGLE_API_KEY", "INSERT_YOUR_API_KEY")
+GOOGLE_CSE_ID = os.getenv("GOOGLE_CSE_ID", "INSERT_YOUR_CSE_ID")
 
 
 class FactualAgent:
